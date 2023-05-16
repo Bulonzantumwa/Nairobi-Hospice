@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(31, 3, 75, 0.1);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #1b074b;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #1d0544;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #220444;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c0550;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0d0649;
+  }
+  
+  /* Form styles */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #080336;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #06053d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0b064d;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #11053b;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+  }

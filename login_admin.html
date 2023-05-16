@@ -1,0 +1,37 @@
+login_admin.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nairobi Hospice - Admin Login</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login_admin.html">Admin Login</a></li>
+        <li><a href="login_staff.html">Staff Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Admin Login</h2>
+    <form action="login_admin.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Login">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Nairobi Hospice. All rights reserved.</p>
+  </footer>
+</body>
+</html>
